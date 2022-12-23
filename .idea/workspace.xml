@@ -7,44 +7,8 @@
     <list default="true" id="9149a5c4-4769-4e1e-b028-8737ecf2f06a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_17_2022_1_14_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_17_2022_1_14_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Annotation/ColumnInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Annotation/ColumnInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Annotation/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Annotation/DataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Annotation/ForeignKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Annotation/ForeignKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Annotation/ManyToOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Annotation/ManyToOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Annotation/OneToMany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Annotation/OneToMany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Annotation/OneToOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Annotation/OneToOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Annotation/PrimaryKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Annotation/PrimaryKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Annotation/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Annotation/Table.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Connector/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Connector/Connector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Connector/ConnectorFactory/ConnectorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Connector/ConnectorFactory/ConnectorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Connector/ConnectorFactory/MsSqlConnectorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Connector/ConnectorFactory/MsSqlConnectorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Connector/ConnectorFactory/MySqlConnectorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Connector/ConnectorFactory/MySqlConnectorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Connector/MsSqlConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Connector/MsSqlConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Connector/MySqlConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Connector/MySqlConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DB/create_table.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DB/example_query.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Example/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Example/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Model/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QueryBuilder/Action/AbleHaving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/QueryBuilder/Action/AbleHaving.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QueryBuilder/Action/AbleQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/QueryBuilder/Action/AbleQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QueryBuilder/Action/AbleRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/QueryBuilder/Action/AbleRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QueryBuilder/Action/AbleRunOrGroupBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/QueryBuilder/Action/AbleRunOrGroupBy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QueryBuilder/Action/AbleWhere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/QueryBuilder/Action/AbleWhere.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QueryBuilder/Implement/DeleteQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/QueryBuilder/Implement/DeleteQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QueryBuilder/Implement/InsertQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/QueryBuilder/Implement/InsertQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QueryBuilder/Implement/SelectQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/QueryBuilder/Implement/SelectQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QueryBuilder/Implement/UpdateQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/QueryBuilder/Implement/UpdateQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/QueryBuilder/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/QueryBuilder/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Repository/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Repository/CreditCardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Repository/CreditCardRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Repository/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Ulti/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Ulti/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Ulti/SqlConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Ulti/SqlConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Ulti/SqlUlti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Ulti/SqlUlti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Ulti/Ulti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DAMFramework/Ulti/Ulti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Model/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +42,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OOP\Design pattern\Final Exam Project\DAMFramework\src\main\java\com\QueryBuilder\Impl" />
@@ -97,7 +67,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.App" />
-      <module name="demo-demo" />
+      <module name="DemoPattern" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,9 +110,9 @@
           <option name="timeStamp" value="2" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/Repository/AccountRepository.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/App.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

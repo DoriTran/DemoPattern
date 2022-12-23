@@ -16,7 +16,7 @@ import com.DAMFramework.Ulti.SqlUlti;
 public class App {
     static public void main(String[] args) {
             SqlUlti sqlMapper = new SqlUlti();
-            MySqlConnectorFactory.provideConnectionInfo("jdbc:mysql://localhost:3306/simpledb", "root", "MySQL3082001");
+            MySqlConnectorFactory.provideConnectionInfo("jdbc:mysql://localhost:3306/simpledb", "root", "fufu1011");
 
             // [SELECT] GET ALL TABLES IN DATABASE
             Repository userRepository = new UserRepository();
@@ -39,7 +39,7 @@ public class App {
                     ("PersonID","PersonID >= all ( select u2.PersonID from users u2)"));
 
             //[INSERT] Primary key auto increment - Add new user
-            User insertedUser = new User("6","John","Stones");
+            User insertedUser = new User("5","John","Stones");
             userRepository.Insert(insertedUser);
 
             //[INSERT] Primary key is not auto increment
@@ -54,7 +54,7 @@ public class App {
             accountRepository.Delete(insertedAccount);
 
             //[DELETE] User
-            User deleteUser = new User("6","John", "Stones");
+            User deleteUser = new User("5","John", "Stones");
             userRepository.Delete(deleteUser);
 
     }
