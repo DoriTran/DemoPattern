@@ -12,13 +12,12 @@ import com.Repository.Repository;
 import com.Repository.UserRepository;
 import com.DAMFramework.Ulti.SqlUlti;
 
-
 public class App {
     static public void main(String[] args) {
             SqlUlti sqlMapper = new SqlUlti();
-            MySqlConnectorFactory.provideConnectionInfo("jdbc:mysql://localhost:3306/simpledb", "root", "fufu1011");
+            MySqlConnectorFactory.provideConnectionInfo("jdbc:mysql://localhost:3306/simpledb", "root", "admin");
 
-            // [SELECT] GET ALL TABLES IN DATABASE
+            // [SELECT] GET ALL USERS IN DATABASE
             Repository userRepository = new UserRepository();
             Object users = userRepository.SelectAll();
 
@@ -39,22 +38,22 @@ public class App {
                     ("PersonID","PersonID >= all ( select u2.PersonID from users u2)"));
 
             //[INSERT] Primary key auto increment - Add new user
-            User insertedUser = new User("5","John","Stones");
+            User insertedUser = new User("4","Nguyen","A");
             userRepository.Insert(insertedUser);
 
             //[INSERT] Primary key is not auto increment
-            Account insertedAccount = new Account(5,"5");
+            Account insertedAccount = new Account(4,"4");
             accountRepository.Insert(insertedAccount);
 
             //[UPDATE]
-            User updatedUser= new User("5","John", "Cena", insertedAccount);
+            User updatedUser= new User("4","Nguyen", "A", insertedAccount);
             userRepository.Update(updatedUser);
 
             //[DELETE] Account
             accountRepository.Delete(insertedAccount);
 
             //[DELETE] User
-            User deleteUser = new User("5","John", "Stones");
+            User deleteUser = new User("4","Nguyen", "A");
             userRepository.Delete(deleteUser);
 
     }
