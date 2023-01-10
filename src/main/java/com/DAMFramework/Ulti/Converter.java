@@ -24,6 +24,24 @@ public abstract class Converter {
             if (columnMapping != null) {
                 var mapsTo = ((ColumnInfo) columnMapping);
                 // property.setString(obj, dr[mapsTo.name()]);
+                String nameOfColumn = mapsTo.name();
+
+                if(mapsTo.type()== DataType.NCHAR||mapsTo.type()==DataType.NVARCHAR ||mapsTo.type()==DataType.VARCHAR) {
+                    String value = dr.getString(nameOfColumn);
+                    property.set(obj, value);
+                }
+                else if(mapsTo.type()==DataType.INT){
+                    var value = dr.getInt(nameOfColumn);
+                    property.set(obj, value);
+                }
+                else if(mapsTo.type()== DataType.BOOL){
+                    var value = dr.getBoolean(nameOfColumn);
+                    property.set(obj, value);
+                }
+                else if(mapsTo.type()==DataType.FLOAT){
+                    var value = dr.getFloat(nameOfColumn);
+                    property.set(obj, value);
+                }
                 try {
                     property.set(obj, dr.getString(mapsTo.name()));
                 }catch (Exception e){}
@@ -57,7 +75,7 @@ public abstract class Converter {
                 var mapsTo = ((ColumnInfo) columnMapping);
                 // property.setString(obj, dr[mapsTo.name()]);
                 String nameOfColumn = mapsTo.name();
-                if(mapsTo.type()== DataType.NCHAR||mapsTo.type()==DataType.NVARCHAR) {
+                if(mapsTo.type()== DataType.NCHAR||mapsTo.type()==DataType.NVARCHAR ||mapsTo.type()==DataType.VARCHAR) {
                     String value = dr.getString(nameOfColumn);
                     property.set(obj, value);
                 }
